@@ -5,7 +5,7 @@ if (pokemon == "Pikachu") {
 }
 
 if (number > 10) {
-  console.
+  console.log
 }
 
 
