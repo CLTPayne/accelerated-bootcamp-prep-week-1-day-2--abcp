@@ -33,12 +33,16 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
+  array.slice(1)
+  return array
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-
+  array.pop(element)
+  return array
 }
 
 function removeElementFromEndOfArray(array) {
-
+  array.slice(0, lastNum)
+  return array
 }
