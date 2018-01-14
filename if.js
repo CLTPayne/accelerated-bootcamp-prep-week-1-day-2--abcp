@@ -7,5 +7,7 @@ if (pokemon == "Pikachu") {
 if (number > 10) {
   return number
 }
-else
+else {
+  console.log("Sorry! That number is less than 10.")
+}
 
