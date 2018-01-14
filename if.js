@@ -10,6 +10,6 @@ function greaterThan10(number) {
 }
 else {
   console.log("Sorry! That number is less than 10.")
-}
+  }
 }
 
