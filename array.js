@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 array.unshift("bolean")
 
 function addElementToEndOfArray(array, element) {
-
+  return [...array, element]
 }
 
 
@@ -24,7 +24,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
-
+  
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
