@@ -20,6 +20,7 @@ function addElementToEndOfArray(array, element) {
 
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push("number")
+  return array
 
 }
 
