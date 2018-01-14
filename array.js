@@ -16,9 +16,10 @@ array.unshift("bolean")
 function addElementToEndOfArray(array, element) {
 
 }
-array.push("number")
+
 
 function destructivelyAddElementToEndOfArray(array, element) {
+  array.push("number")
 
 }
 
