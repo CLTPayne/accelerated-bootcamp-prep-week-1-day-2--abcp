@@ -45,6 +45,10 @@ function removeElementFromEndOfArray(array, element) {
   return array.slice(0, array.lenght - 1)
 }
 
-function nonDestructivelyRemoveAtIndex (array, index) {
-// remove element from the middle 
+
+// CHALLENGE: remove an element from the middle of the array/at a given index 
+// and return a COPY of the original array, minus that element
+
+function nonDestructivelyRemoveAtIndex(array, index) {
+// using slice _and_ spread??
 }
