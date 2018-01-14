@@ -46,5 +46,5 @@ function removeElementFromEndOfArray(array, element) {
 }
 
 function nonDestructivelyRemoveAtIndex (array, index) {
-
+// remove element from the middle 
 }
